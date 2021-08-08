@@ -27,7 +27,7 @@ export default class Model extends Component {
                                             <h5 className="text-muted">price : $ {price}</h5>
                                             <Link to='/'>
                                                 <ButtonContainer onClick={()=> closeModel()}>
-                                                    continue shopping
+                                                    add to cart
                                                 </ButtonContainer>
                                             </Link>
                                             <Link to='/cart'>
